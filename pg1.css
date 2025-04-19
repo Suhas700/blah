@@ -1,25 +1,21 @@
-body {
-    font-size: large;
+body{
     background-color: antiquewhite;
-    color: blue;
+}
 
-}
-.one {
-    border: 2rem solid black;
-    margin-bottom: 0rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 2rem;
+.container{
+    color:blue;
+    font-size: large;
+    border:2rem solid black;
+    padding:2rem;
     text-align: center;
-    
 }
-.two {
-    border: 2rem solid white;
-    margin-bottom: 1rem;
-    margin-top: 0rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 2rem;
-    text-align: center;
+
+.container:first-child{
+    margin:1rem 1rem 0rem;
+    border-color: white;
+}
+
+.container:last-child{
+    margin:0rem 1rem 1rem;
+    border-color: black;
 }
